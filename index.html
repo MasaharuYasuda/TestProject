@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link　href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" contegrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a390c4cb09.js" crossorigin="anonymous"></script>
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'okg8vfj',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+    <script src="index.js"></script> 
+    <script src="modal.js" defer></script>
+</head>
+<body>
+    
+<div class="wrapper">
+    <header class="header">
+        <div class="header-cont">
+            <div class="logo-box">
+            <h1 class="logo">おおぞら<br>クリニック</h1>
+        </div>
+            <nav class="g-navi">
+                <ul class="g-navi-wrap">
+                    <li class="g-navi-home"><a href="index.html">ホーム</a></li>
+                    <li class="g-navi-clinic"><a href="clinic.html">医院案内</a></li>
+                    <li class="g-navi-doctor"><a href="doctor.html">院長紹介</a></li>
+                    <li class="g-navi-medical"><a href="medical.html">診療案内</a></li>
+                    <li class="g-navi-access"><a href="access.html">アクセス</a></li>
+                </ul>
+            </nav>
+        </div>
+        <a class="menuButtom">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
+    </header>
+    
+    <main>
+        <section class="slide-show">    
+            <img id="slide-img" src="images/slide1.jpg">
+            <h2 class="img-txt">一番身近な小児科医を目指して
+                <br>ささいな症状でも
+                ご相談ください
+            </h2>
+        </section>
+        
+        <section class="modal-window">
+            <div class="covid-19" id="covid-19">
+                <div class="attention-cont">
+                    <h2 class="attention-ttl">当院の新型コロナウイルス感染症対策について</h2>       
+                    <a id="close-btn"><i class="far fa-times-circle"></i></a>
+                    <p class="attention-txt">当院では、新型コロナウイルス感染症拡大防止のため、患者様の受診にあたって事前に以下の項目を確認させていただいております。
+                        <br>１つでも該当される場合は、受診をお控えいただくようご案内しております。</p>
+                    <ul class="attention-list">
+                        <li class="attention-list-txt">急性の気道症状や37.5度以上の発熱がある</li>
+                        <li class="attention-list-txt">強い倦怠感・呼吸困難がある</li>
+                        <li class="attention-list-txt">海外に渡航・帰国して2週間いないである</li>
+                        <li class="attention-list-txt">同居家族に感染者がいる</li>
+                        <li class="attention-list-txt">新型コロナウイルス感染症の陽性という診断を2週間以内に受けた</li>
+                    </ul>  
+                    <p class="attention-txt">また、院内ではマスクの着用にご協力ください。
+                        <br>当院は原則として予約制のクリニックですが、さらに効果的に過密を防ぐために、当日の患者様へのお付き添いは必要な場合を除きお控えいただきますようご協力お願い申し上げます。
+                    </p> 
+                </div>   
+            </div>
+        </section>
+
+        <section class="news">
+            <h2 class="cont-ttl">お知らせ</h2>
+            <div class="news-cont">
+                <div class="news-box">
+                    <p class="date">2020/11/5</p>
+                    <div class="txt-box">
+                        <p class="news-ttl"><span class="red-txt">(重要)</span>インフルエンザ予防接種について</p>
+                        <p class="news-txt">インフルエンザワクチンが入荷いたしましたので、インフルエンザワクチン予防接種をご希望の方は、（電話またはWeb）にて予約をお願いします。</p>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <p class="date">2020/10/10</p>
+                    <div class="txt-box">
+                        <p class="news-ttl">インフルエンザ予防接種について</p>
+                        <p class="news-txt">本日を持ちまして今季インフルエンザワクチンの予約を終了いたしました。
+                        <br>当院では一人でも多くの皆様にワクチンをお届けするため、キャンセルなどが発生した場合には当院のwebページにてお知らせいたします。</p>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <p class="date">2020/9/23</p> 
+                    <div class="txt-box">  
+                        <p class="news-ttl">インフルエンザ予防接種について</p>
+                        <p class="news-txt">インフルエンザ予防接種を実施しております。
+                            <br>ワクチンの数に限りがございますので、
+                            ご希望の患者様はお早めにお電話にてお問い合わせください。</p>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <p class="date">2020/7/12</p>
+                    <div class="txt-box">   
+                        <p class="news-ttl">夏季休業のお知らせ</p>
+                        <p class="news-txt">令和2年8月11日より8月15日まで休診いたします。</p>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <p class="date">2020/4/13</p>
+                    <div class="txt-box">
+                        <p class="news-ttl">患者様へのマスク着用のお願い</p>
+                        <p class="news-txt">受診（診察・注射などの処置）をされる際には、必ずマスクを着用いただきますようお願いいたします。
+                            <br>皆様には安心して受診いただけるよう、ご理解とご協力の程よろしくお願いいたします。</p>
+                    </div>
+                </div> 
+                <div class="news-box">
+                    <p class="date">2020/4/3</p>
+                    <div class="txt-box">
+                        <p class="news-ttl">診療中、クリニック内の換気を行なっています。</p>
+                        <p class="news-txt">新型コロナウイルスの対策として、診療中に待合室・診療室の換気を行なっています。皆様のご理解ご協力をお願いいたします。</p>
+                    </div>
+                </div>
+
+                <div class="news-box">
+                    <p class="date">2020/1/26</p>
+                    <div class="txt-box">
+                        <p class="news-ttl">休診のお知らせ</p>
+                        <p class="news-txt">3月4日（水）は、都合により休診といたします。ご迷惑をおかけいたしますが、何卒ご了承ください。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="comment">
+            <h2 class="comment-ttl">皆様の<span class="blue-txt">「かかりつけ医」</span>として<br>どんなことでもご相談ください！
+            </h2>
+            <div class="comment-cont">
+                <p class="comment-txt">こんにちは、福井県福井市のおおぞらクリニックです。
+                    <br>当院では患者様の不安感や不快感を最小限にし、しっかりと治療に向き合っていただけるよう、快適に過ごせる空間づくりを心掛けております。お気軽にご来院ください。
+                </p>
+                <img src="" alt="病院の外見"　class="comment-img">
+            </div>  
+        </section>
+
+        <section class="info">
+            <h2 class="cont-ttl">診療案内</h2>
+            <div class="info-cont">
+                <div class="medical-list">
+                    <dl>
+                        <a href="ippan.html">
+                            <dt><img src="images/ippan.jpg" srcset="images/ippan-retina.jpg 2x" alt="一般小児科"></dt>
+                            <dd>一般小児科</dd>
+                        </a>
+                    </dl>
+                    <dl>
+                        <a href="yobou.html">
+                            <dt><img src="images/yobou.jpg" srcset="images/yobou-retina.jpg 2x" alt="予防接種"></dt>
+                            <dd>予防接種</dd>
+                        </a>
+                    </dl>
+                    <dl>
+                        <a href="nyuuyouji-kensinn.html">
+                            <dt><img src="images/nyuuji.jpg" srcset="images/nyuuji-retina.jpg 2x" alt="乳児健診"></dt>
+                            <dd>乳児健診</dd>
+                        </a>
+                    </dl>                 
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">   
+        <div class="footer-wrap">
+            <div class="footer-left">
+                <h2 class="footer-logo">おおぞらクリニック</h2>
+                <div class="footer-address">
+                    <p class="footer-add">〒916-1234　福井県福井市</p>
+                    <p class="footer-tel">0776-12-1234</p>
+                </div> 
+            
+                <div class="schedule">  
+                    <h2 class="schedule-ttl">診療時間のご案内</h2> 
+                    <div class="schedule-cont">
+                        <table>
+                            <tr class="top">
+                                <th>診療時間</th>
+                                <td>月</td>
+                                <td>火</td>
+                                <td>水</td>
+                                <td>木</td>
+                                <td>金</td>
+                                <td>土</td>
+                                <td>日/祝</td>
+                            </tr>
+                            <tr>
+                                <th>9:00 <br>~<br> 12:00</th>
+                                <td class="circle"></td>
+                                <td class="circle"></td>
+                                <td class="circle"></td>
+                                <td class="circle"></td>
+                                <td class="circle"></td>
+                                <td class="circle"></td>
+                                <td class="line"></td>
+                            </tr>
+                            <tr>
+                                <th>15:00 <br>~<br> 18:30</th>
+                                <td class="circle"></td>
+                                <td class="circle"></td>
+                                <td class="line"></td>
+                                <td class="circle"></td>
+                                <td class="circle"></td>
+                                <td class="line"></td>
+                                <td class="line"></td>
+                            </tr>
+                        </table>
+                        <p class="closed">休診　水曜日/土曜日午後・日曜日・祝日</p>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="g-map-box">  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6359.4826613948135!2d136.24483024051995!3d36.090345994073466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8bfd5f0098d97%3A0x7743bfe77700adb9!2z44Op44OW44Oq44O844OR44O844OI44OK44O8IExwYSjjgqjjg6vjg5Ep!5e0!3m2!1sja!2sjp!4v1604911999973!5m2!1sja!2sjp"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="g-map"></iframe>
+                </div>    
+            </div> 
+        </div> 
+        <p class="copy">&copy;おおぞらクリニック All Right Reserved.</p>
+    </footer>
+
+    
+</div>
+</body>
+</html>  
